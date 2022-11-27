@@ -668,3 +668,15 @@ img {
   background-color: black;
   color: white;
 }
+
+.submenu_container{
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.centerImage {
+  justify-self: center;
+}
+.centerImage img{
+style=" width: 65%; height: auto;
+}
