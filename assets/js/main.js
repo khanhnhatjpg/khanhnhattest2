@@ -66,7 +66,7 @@ function myFunction() {
   }
 }
 
-// GALLERY
+// GALLERY//
 let slideIndex = 1;
 showSlides(slideIndex);
 
