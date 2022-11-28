@@ -45,13 +45,59 @@
             </nav>
         </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
+<!--phone navigator-!>
+
+
+		<!-- Logo and navigation menu -->
+		<div class="geeks">
+			<a href="#" class="">Navigator</a>
+			<div id="menus">
+        <li class=""><a href="#home" class="">Home</a></li>
+        <li class=""><a href="#about" class="">About</a></li>
+        <li class=""><a href="#skills" class=""> Education & Skills</a></li>
+        <li class=""><a href="#experience" class=""> Experience</a></li>
+        <li class=""><div class=""><a href="Work.html" class=""> Work</a>
+        <li class=""><a href="#contact" class="">Contact</a></li>
+			</div>
+			<!-- Bar icon for navigation -->
+			<a href="javascript:void(0);" class="icon"
+					onclick="geeksforgeeks()">
+
+				<i onclick="myFunction(this)"
+						class="fa fa-plus-circle">
+				</i>
+			</a>
+		</div>
+	</div>
+
+	<script>
+		// Function to toggle the bar
+		function geeksforgeeks() {
+			var x = document.getElementById("menus");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	</script>
+
+	<script>
+		// Function to toggle the plus menu into minus
+		function myFunction(x) {
+			x.classList.toggle("fa-minus-circle");
+		}
+	</script>
+</body>
+</html>
+
+    <main class="l-main">
+    <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Khanh Nhat Nguyen</span><br> Visual Development Artist</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
